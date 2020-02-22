@@ -1325,7 +1325,7 @@ header[role='banner'] {
 .logo {
   text-transform: lowercase; }
   .logo a {
-    background: url("../images/logos/logo.svg") no-repeat 0 0;
+    background: url("../images/logos/navbar-logo.png") no-repeat 0 0;
     background-size: 4.8rem;
     float: left;
     height: 4.8rem;
@@ -3317,10 +3317,10 @@ nav[role='navigation'] li.active a {
   color: #fff; }
 
 nav[role='navigation'] li a {
-  background-color: rgba(50, 50, 50, 0.9);
+  background-color: #fff;
   color: #fff; }
   nav[role='navigation'] li a:hover {
-    background-color: rgba(50, 50, 50, 0.7); }
+    background-color: #fff; }
 
 nav li.twitter a:hover {
   background-color: #1da1f3; }

@@ -3166,11 +3166,15 @@ Slides - Backgrounds <section class="bg-primary">
 .bg-green {
   background-color: #077; }
 
+.bg-orange {
+  background-color: rgb(243, 123, 59); 
+  color: #f0f0f0;}
+
 .bg-purple {
   background-color: #62b; }
 
 .bg-red {
-  background-color: #c23; }
+  background-color: #b62f3d; }
 
 .bg-white {
   background-color: #fff; }

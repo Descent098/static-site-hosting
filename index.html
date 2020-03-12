@@ -1094,27 +1094,41 @@
           <!-- .end .wrap -->
         </section>
 
-        <section class="fullscreen bg-orange">
-          <div class="card-50">
-            <figure>
-              <img src="./static/images/logos/cloudflare.png" alt="cloudflare Logo">
-              <figcaption>
-                <a href="https://www.cloudflare.com/" title="cloudflare" target="_blank">
+        <section class="bg-orange">
+          <div class="wrap">
+            <div class="card-50 bg-white">
+              <figure>
+                <img src="./static/images/logos/cloudflare.png" alt="Cloudflare logo">
+                <figcaption>
+                  <a href="https://www.cloudflare.com/" title="CloudFlare Logo">
+                    <svg class="fa-camera">
+                      <use xlink:href="#fa-camera"></use>
+                    </svg>
+                    CloudFlare
+                  </a>
+                </figcaption>
+              </figure>
+              <!-- end figure-->
+              <div class="flex-content">
+                <h2>
                   CloudFlare
-                </a>
-              </figcaption>
-            </figure>
-            <!-- end figure-->
-            <div class="flex-content">
-              <h2>CloudFlare
-              </h2>
-              <p>The best option</p>
-              <p class="text-intro">I debated including a few options, but realistically CloudFlare is the best option for DNS. If you use them they also do CDN caching, SSL, and other nice to have features for you.</p>
-              <p class="aligncenter"><a class="button" href="https://www.cloudflare.com/" target="_blank">CloudFlare Website &raquo;</a></p>
+                </h2>
+                <p>The best option</p>
+                <ul class="description">
+                  <li>
+                    <strong class="text-label">Websites:</strong> 12 million</li>
+                  <li><strong class="text-label">Cost:</strong> $0</li>
+                  <li><strong class="text-label">Countries:</strong> 90</li>
+                </ul>
+                <p class="text-intro">I debated including a few options, but realistically CloudFlare is the best option for DNS. If you use them they also do CDN caching, SSL, and other nice to have features for you.</p>
+                <p class="aligncenter"><a class="button" href="https://www.cloudflare.com/" target="_blank">CloudFlare Website &raquo;</a></p>
+              
+              </div>
+              <!-- end .flex-content-->
             </div>
-            <!-- end .flex-content-->
+            <!-- .end .card50 -->
           </div>
-          <!-- end .card-50-->
+          <!-- .end .wrap -->
         </section>
 
 
@@ -1151,6 +1165,64 @@
           </div>
           <!-- .end .wrap -->
         </section>
+
+
+
+        <section>
+          <div class="wrap size-70">
+            <form action="https://formspree.io/kieran@canadiancoding.ca" method="post">
+              <fieldset>
+                <legend>Feedback</legend>
+
+                <p><label>How interesting was the presentation</label>
+                  <select class="custom-select" name="rating" value="rating" required="">
+                    <option value="1">Bored</option>
+                    <option value="2">Dry but tolerable</option>
+                    <option value="3" selected="">Somewhat interesting</option>
+                    <option value="4">Barely noticed it was 1.5 hours</option>
+                    <option value="5">The sage wisdom & entertainment knows no bounds</option>
+                  </select>
+                </p>
+
+                <p><label>How useful was the information?</label>
+                  <select class="custom-select" name="rating" value="rating" required="">
+                    <option value="1">Pointless</option>
+                    <option value="2">Somewhat useful</option>
+                    <option value="3" selected="">Good enough to be useful</option>
+                    <option value="4">Very useful</option>
+                    <option value="5">Probably the most useful presentation i've been to</option>
+                  </select>
+                </p>
+
+                <p><label>Recomendation</label>
+                  <select class="custom-select" name="rating" value="rating" required="">
+                    <option value="no">I would not recommend this presentation</option>
+                    <option value="neutral" selected="">Maybe I would recommend this presentation</option>
+                    <option value="yes">I would recommend this presnetation</option>
+                  </select>
+                </p>
+
+                <p><label>Major</label>
+                  <select class="custom-select" name="major" value="major" required="">
+                    <option value="Prefer not to say" selected="">Prefer not to say</option>
+                    <option value="CPSC">CPSC (Computer science)</option>
+                    <option value="ENG">ENG (Engineering)</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </p>
+                <p><label>Additional Feedback</label>
+                  <textarea name="feedback" placeholder="Any other notes about the presentation" required=""></textarea>
+                </p>
+
+                <p>
+                  <button type="submit" tabindex="1" title="submit">Send Feedback &rsaquo;</button>
+                </p>
+              </fieldset>
+            </form>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
 
         <!--Questions-->
         <section>
